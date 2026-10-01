@@ -30,6 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.translateLabel = new System.Windows.Forms.Label();
+            this.ItailianButtom = new System.Windows.Forms.Button();
+            this.spanishButtom = new System.Windows.Forms.Button();
+            this.germanyButtom = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -46,18 +49,54 @@
             // translateLabel
             // 
             this.translateLabel.Font = new System.Drawing.Font("Arial Narrow", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.translateLabel.Location = new System.Drawing.Point(430, 357);
+            this.translateLabel.Location = new System.Drawing.Point(420, 320);
             this.translateLabel.Name = "translateLabel";
             this.translateLabel.Size = new System.Drawing.Size(570, 192);
             this.translateLabel.TabIndex = 1;
-            this.translateLabel.Text = "jew";
             this.translateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.translateLabel.Click += new System.EventHandler(this.translateLabel_Click);
+            // 
+            // ItailianButtom
+            // 
+            this.ItailianButtom.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ItailianButtom.Location = new System.Drawing.Point(132, 670);
+            this.ItailianButtom.Name = "ItailianButtom";
+            this.ItailianButtom.Size = new System.Drawing.Size(305, 136);
+            this.ItailianButtom.TabIndex = 2;
+            this.ItailianButtom.Text = "義大利";
+            this.ItailianButtom.UseVisualStyleBackColor = true;
+            this.ItailianButtom.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // spanishButtom
+            // 
+            this.spanishButtom.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.spanishButtom.Location = new System.Drawing.Point(557, 670);
+            this.spanishButtom.Name = "spanishButtom";
+            this.spanishButtom.Size = new System.Drawing.Size(305, 136);
+            this.spanishButtom.TabIndex = 3;
+            this.spanishButtom.Text = "西班牙";
+            this.spanishButtom.UseVisualStyleBackColor = true;
+            this.spanishButtom.Click += new System.EventHandler(this.spanishButtom_Click);
+            // 
+            // germanyButtom
+            // 
+            this.germanyButtom.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.germanyButtom.Location = new System.Drawing.Point(991, 670);
+            this.germanyButtom.Name = "germanyButtom";
+            this.germanyButtom.Size = new System.Drawing.Size(305, 136);
+            this.germanyButtom.TabIndex = 4;
+            this.germanyButtom.Text = "德國";
+            this.germanyButtom.UseVisualStyleBackColor = true;
+            this.germanyButtom.Click += new System.EventHandler(this.germanyButtom_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1489, 1038);
+            this.Controls.Add(this.germanyButtom);
+            this.Controls.Add(this.spanishButtom);
+            this.Controls.Add(this.ItailianButtom);
             this.Controls.Add(this.translateLabel);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -70,6 +109,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label translateLabel;
+        private System.Windows.Forms.Button ItailianButtom;
+        private System.Windows.Forms.Button spanishButtom;
+        private System.Windows.Forms.Button germanyButtom;
     }
 }
 

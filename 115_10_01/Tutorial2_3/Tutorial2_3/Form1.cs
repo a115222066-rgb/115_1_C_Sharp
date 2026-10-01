@@ -21,5 +21,25 @@ namespace Tutorial2_3
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buongiorno";
+        }
+
+        private void translateLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void spanishButtom_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buenos dias";
+        }
+
+        private void germanyButtom_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Guten Morgen";
+        }
     }
 }
