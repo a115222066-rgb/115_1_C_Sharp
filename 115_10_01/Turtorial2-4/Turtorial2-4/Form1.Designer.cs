@@ -37,9 +37,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Turtorial2_4.Properties.Resources.France;
-            this.pictureBox2.Location = new System.Drawing.Point(744, 172);
+            this.pictureBox2.Location = new System.Drawing.Point(503, 247);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(310, 208);
+            this.pictureBox2.Size = new System.Drawing.Size(120, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
