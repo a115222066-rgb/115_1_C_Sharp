@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tortuial2-5", "Tortuial2-5\Tortuial2-5.csproj", "{C11CA70F-53E7-4394-A526-500340A9D6AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C11CA70F-53E7-4394-A526-500340A9D6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11CA70F-53E7-4394-A526-500340A9D6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11CA70F-53E7-4394-A526-500340A9D6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11CA70F-53E7-4394-A526-500340A9D6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {304FC49B-0899-4267-90D9-B59AD4AE31B6}
+	EndGlobalSection
+EndGlobal

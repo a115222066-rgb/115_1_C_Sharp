@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\bin\Debug\Tortuial2-5.exe.config
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\bin\Debug\Tortuial2-5.exe
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\bin\Debug\Tortuial2-5.pdb
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2-5.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2_5.Properties.Resources.resources
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2-5.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2-5.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2-5.exe
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2-5.pdb
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2-5.exe.config
+C:\Users\m303\Desktop\115_1_C_Sharp\115_10_08\Tortuial2-5\Tortuial2-5\obj\Debug\Tortuial2_5.Form1.resources
