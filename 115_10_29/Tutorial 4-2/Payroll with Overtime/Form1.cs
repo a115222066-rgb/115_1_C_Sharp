@@ -19,7 +19,13 @@ namespace Payroll_with_Overtime
 
         private void calculateButton_Click(object sender, EventArgs e)
         {
-           
+            decimal money;
+            money = decimal.Parse(hoursWorkedTextBox.Text) * decimal.Parse(hourlyPayRateTextBox.Text);
+            if (decimal.Parse(hoursWorkedTextBox.Text) > 40)
+            {
+                money = (decimal.Parse(hoursWorkedTextBox.Text) - 40) * decimal.Parse(hourlyPayRateTextBox.Text) * 1.5m + 40 * decimal.Parse(hourlyPayRateTextBox.Text);
+            }
+            grossPayLabel.Text = money.ToString("c");
         }
 
         private void clearButton_Click(object sender, EventArgs e)

@@ -41,10 +41,10 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(645, 286);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.exitButton.Location = new System.Drawing.Point(471, 251);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(240, 88);
+            this.exitButton.Size = new System.Drawing.Size(190, 59);
             this.exitButton.TabIndex = 26;
             this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -52,10 +52,10 @@
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(370, 286);
-            this.clearButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clearButton.Location = new System.Drawing.Point(471, 318);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(4);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(249, 88);
+            this.clearButton.Size = new System.Drawing.Size(190, 60);
             this.clearButton.TabIndex = 25;
             this.clearButton.Text = "清除";
             this.clearButton.UseVisualStyleBackColor = true;
@@ -63,10 +63,10 @@
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(136, 286);
-            this.calculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calculateButton.Location = new System.Drawing.Point(94, 251);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(4);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(211, 86);
+            this.calculateButton.Size = new System.Drawing.Size(340, 127);
             this.calculateButton.TabIndex = 24;
             this.calculateButton.Text = "計算總薪資";
             this.calculateButton.UseVisualStyleBackColor = true;
@@ -75,17 +75,17 @@
             // grossPayLabel
             // 
             this.grossPayLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.grossPayLabel.Location = new System.Drawing.Point(278, 156);
+            this.grossPayLabel.Location = new System.Drawing.Point(292, 185);
             this.grossPayLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.grossPayLabel.Name = "grossPayLabel";
-            this.grossPayLabel.Size = new System.Drawing.Size(162, 31);
+            this.grossPayLabel.Size = new System.Drawing.Size(358, 31);
             this.grossPayLabel.TabIndex = 23;
             // 
             // outputDescriptionLabel
             // 
             this.outputDescriptionLabel.AutoSize = true;
             this.outputDescriptionLabel.Font = new System.Drawing.Font("新細明體", 18F);
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(94, 151);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(94, 180);
             this.outputDescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
             this.outputDescriptionLabel.Size = new System.Drawing.Size(123, 36);
@@ -95,25 +95,25 @@
             // hourlyPayRateTextBox
             // 
             this.hourlyPayRateTextBox.Location = new System.Drawing.Point(292, 98);
-            this.hourlyPayRateTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.hourlyPayRateTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.hourlyPayRateTextBox.Name = "hourlyPayRateTextBox";
-            this.hourlyPayRateTextBox.Size = new System.Drawing.Size(148, 29);
+            this.hourlyPayRateTextBox.Size = new System.Drawing.Size(358, 29);
             this.hourlyPayRateTextBox.TabIndex = 21;
             this.hourlyPayRateTextBox.TextChanged += new System.EventHandler(this.hourlyPayRateTextBox_TextChanged);
             // 
             // hoursWorkedTextBox
             // 
             this.hoursWorkedTextBox.Location = new System.Drawing.Point(291, 32);
-            this.hoursWorkedTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.hoursWorkedTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.hoursWorkedTextBox.Name = "hoursWorkedTextBox";
-            this.hoursWorkedTextBox.Size = new System.Drawing.Size(148, 29);
+            this.hoursWorkedTextBox.Size = new System.Drawing.Size(359, 29);
             this.hoursWorkedTextBox.TabIndex = 20;
             // 
             // hourlyPayRatePromptLabel
             // 
             this.hourlyPayRatePromptLabel.AutoSize = true;
             this.hourlyPayRatePromptLabel.Font = new System.Drawing.Font("新細明體", 18F);
-            this.hourlyPayRatePromptLabel.Location = new System.Drawing.Point(22, 86);
+            this.hourlyPayRatePromptLabel.Location = new System.Drawing.Point(22, 98);
             this.hourlyPayRatePromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.hourlyPayRatePromptLabel.Name = "hourlyPayRatePromptLabel";
             this.hourlyPayRatePromptLabel.Size = new System.Drawing.Size(195, 36);
@@ -135,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(961, 514);
+            this.ClientSize = new System.Drawing.Size(766, 405);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.calculateButton);
@@ -145,7 +145,7 @@
             this.Controls.Add(this.hoursWorkedTextBox);
             this.Controls.Add(this.hourlyPayRatePromptLabel);
             this.Controls.Add(this.hoursWorkedPromptLabel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Payroll with Overtime";
             this.ResumeLayout(false);
