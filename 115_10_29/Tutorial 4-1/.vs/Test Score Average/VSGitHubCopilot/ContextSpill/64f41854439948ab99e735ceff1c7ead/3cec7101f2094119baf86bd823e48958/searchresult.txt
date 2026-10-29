@@ -1,0 +1,300 @@
+﻿10 matches found: 
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\115_10_22\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    // Lines 14 to 18
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\115_10_22\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    // Lines 21 to 43
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\Chapter 04\Tutorial 4-1\Test Score Average\Form1.cs>
+    File: `Chapter 04/Tutorial 4-1/Test Score Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes and the averageLabel control.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+
+            // Reset the focus to test1.
+            test1TextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\Chapter 04\Tutorial 4-1\Test Score Average\Form1.cs>
+    File: `Chapter 04/Tutorial 4-1/Test Score Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes and the averageLabel control.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+
+            // Reset the focus to test1.
+            test1TextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\Chapter 04\Tutorial 4-1\Test Score Average\Program.cs>
+    File: `Chapter 04/Tutorial 4-1/Test Score Average/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\Chapter 04\Tutorial 4-1\Test Score Average\Program.cs>
+    File: `Chapter 04/Tutorial 4-1/Test Score Average/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\115_10_15\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `115_10_15/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\115_10_15\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `115_10_15/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\115_10_22\Tutorial 3-3\Sale Price Calculator\Sale Price Calculator\Form1.cs>
+    // Lines 52 to 61
+</match>
+<match path=C:\Users\m303\Documents\GitHub\115_1_C_Sharp\Chap3\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `Chap3/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
