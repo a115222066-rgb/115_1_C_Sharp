@@ -30,18 +30,25 @@ namespace Test_Score_Average
                 double average = (test1 + test2 + test3) / 3;
                 averageLabel.Text = average.ToString("0.##");
 
-                if (average >= 60)
+                if (average >= 90)
                 {
-                    if (average >= 95)
-                        MessageBox.Show("恭喜拿到高分！！！");
-                    else
-                    {
-                        MessageBox.Show("平時成績及格");
-                    }
+                    MessageBox.Show("成績A");
                 }
-                else
+                else if(average >= 80)
                 {
-                    MessageBox.Show("平時成績不及格");
+                    MessageBox.Show("成績B");
+                }
+                else if (average >= 70)
+                {
+                    MessageBox.Show("成績C");
+                }
+                else if (average >= 60)
+                {
+                    MessageBox.Show("成績D");
+                }
+                else 
+                {
+                    MessageBox.Show("成績F");
                 }
             }
             else

@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\WindowsFormsApp2fsdfsdfs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10D40BD9-6A97-43F6-A7FB-8A1CD6F3B43B}|WindowsFormsApp2fsdfsdfs\\WindowsFormsApp2fsdfsdfs.csproj|c:\\users\\m303\\desktop\\windowsformsapp2fsdfsdfs\\windowsformsapp2fsdfsdfs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10D40BD9-6A97-43F6-A7FB-8A1CD6F3B43B}|WindowsFormsApp2fsdfsdfs\\WindowsFormsApp2fsdfsdfs.csproj|solutionrelative:windowsformsapp2fsdfsdfs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\WindowsFormsApp2fsdfsdfs\\WindowsFormsApp2fsdfsdfs\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2fsdfsdfs\\Form1.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\WindowsFormsApp2fsdfsdfs\\WindowsFormsApp2fsdfsdfs\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "WindowsFormsApp2fsdfsdfs\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T09:10:53.671Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
