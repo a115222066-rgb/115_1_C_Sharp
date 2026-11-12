@@ -1,0 +1,72 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Time_Zone
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+            string city;
+            if (cityListBox.SelectedIndex != -1)
+            {
+                city = cityListBox.SelectedItem.ToString();
+                
+                switch (city)
+                {   case "丹佛":
+                        timeZoneLabel.Text = "山區時間";
+                        break;
+                    case "檀香山":
+                        timeZoneLabel.Text = "夏威夷_阿留申時間";
+                        break;
+                    case "明尼阿波利斯":
+                        timeZoneLabel.Text = "中部時間";
+                        break;
+                    case "紐約":
+                        timeZoneLabel.Text = "東部時間";
+                        break;
+                    case "舊金山":
+                        timeZoneLabel.Text = "太平洋時間";
+                        break;
+                }
+            }
+            else
+            {
+                MessageBox.Show("選一個城市");
+            }
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+
+        private void cityListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            cityListBox.Items.Add("水牛城");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            cityListBox.Items.Clear();
+        }
+    }
+}
